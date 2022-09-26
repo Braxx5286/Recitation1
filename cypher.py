@@ -37,7 +37,6 @@ def decrypt(message, password):
         return decrypted_message
 
 
-
 if __name__ == '__main__':
     print(encrypt("abcedfg","bcde"))
 
