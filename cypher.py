@@ -23,7 +23,6 @@ def encrypt(message, password):
     return encrypted_message
 
 
-
 def decrypt(message, password):
         decrypted_message = ''
         password = math.ceil(len(message) / len(password)) * password
